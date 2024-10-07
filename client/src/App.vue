@@ -4,7 +4,7 @@ import NavBar from "./components/NavBar.vue";
 
 <template>
   <main class="h-screen w-screen">
-    <NavBar class="relative md:absolute" />
+    <NavBar class="relative pb-11 md:pb-0" />
     <RouterView />
   </main>
 </template>

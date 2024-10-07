@@ -12,9 +12,11 @@ const menuIconChange = () => {
 </script>
 
 <template>
-  <div class="flex flex-row items-center gap-2">
-    <h1 v-if="(menuState = true)">
-      Click here to navigate the platform<i class="fa fa-arrow-right ml-3"></i>
+  <div class="mr-3 flex flex-row items-center gap-0">
+    <h1 class="hidden md:inline-block">
+      Click here to navigate the platform<i
+        class="fa fa-arrow-right ml-3 mr-3"
+      ></i>
     </h1>
 
     <Menu as="div" class="relative inline-block text-left">

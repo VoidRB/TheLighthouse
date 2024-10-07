@@ -1,2 +1,4 @@
 <script setup></script>
-<template><h1>ProHelp</h1></template>
+<template>
+  <div class="flex flex-col-reverse sm:flex-row">test</div>
+</template>
