@@ -1,10 +1,10 @@
 <script setup>
-import DropDownNav from './DropDownNav.vue';
-import NavBranding from './NavBranding.vue';
+import DropDownNav from "./DropDownNav.vue";
+import NavBranding from "./NavBranding.vue";
 </script>
 <template>
   <div
-    class="flex-row flex items-center justify-between w-full min-h-8 px-4 py-3 drop-shadow-md"
+    class="relative z-10 flex min-h-8 w-full flex-row content-center items-center justify-between bg-white px-4 py-3"
   >
     <NavBranding />
     <DropDownNav />

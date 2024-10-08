@@ -1,5 +1,5 @@
 <script setup>
-import HomeCards from '@/components/HomeCards.vue';
+import HomeCards from "@/components/HomeCards.vue";
 </script>
 
 <template>

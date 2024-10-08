@@ -12,7 +12,7 @@ const menuIconChange = () => {
 </script>
 
 <template>
-  <div class="mr-3 flex flex-row items-center gap-0">
+  <div class="mr-3 flex flex-row items-center gap-0 drop-shadow-md">
     <h1 class="hidden md:inline-block">
       Click here to navigate the platform<i
         class="fa fa-arrow-right ml-3 mr-3"
@@ -23,10 +23,17 @@ const menuIconChange = () => {
       <div>
         <MenuButton
           @click="menuIconChange"
-          class="inline-flex w-full justify-center rounded-full bg-white text-sm font-semibold text-gray-900 ring-2 ring-inset ring-gray-300 hover:bg-gray-50"
+          class="inline-flex w-full items-center justify-center rounded-full bg-white text-sm font-semibold text-gray-900 ring-2 ring-inset ring-gray-300 hover:bg-gray-50"
         >
           <i
-            :class="['fa', menuIcon, 'text-xl', 'text-black', 'px-4', 'py-2']"
+            :class="[
+              'fa',
+              menuIcon,
+              'text-xl',
+              'text-black',
+              'size-12',
+              'place-content-center',
+            ]"
           ></i>
         </MenuButton>
       </div>
